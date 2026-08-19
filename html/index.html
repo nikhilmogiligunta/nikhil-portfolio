@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nikhil Mogiligunta — Java Backend Developer specializing in Spring Boot, Microservices, Kafka and banking applications.">
+  <title>Nikhil Mogiligunta | Java Backend Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div id="cursor-dot"></div>
+  <div id="cursor-ring"></div>
+  <canvas id="scene"></canvas>
+  <div class="noise"></div>
+
+  <header class="nav">
+    <a class="brand magnetic" href="#home">&lt;Nikhil/&gt;</a>
+    <button class="nav-toggle" aria-label="Open menu">☰</button>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#project">Project</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span> JAVA BACKEND DEVELOPER</div>
+        <h1>Building <span>scalable</span><br>backend systems.</h1>
+        <p class="hero-lead">
+          I design enterprise-grade backend applications, microservices and
+          event-driven systems with Java, Spring Boot and Kafka.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary magnetic" href="#project">Explore my work <b>↘</b></a>
+          <a class="btn btn-ghost magnetic" href="../resume/Nikhil_Mogiligunta_Resume.pdf" download>Download resume <b>↓</b></a>
+        </div>
+        <div class="mini-stats">
+          <div><strong>3+</strong><small>Years experience</small></div>
+          <div><strong>JAVA</strong><small>Backend engineering</small></div>
+          <div><strong>EVENTS</strong><small>Kafka / distributed systems</small></div>
+        </div>
+      </div>
+
+      <div class="hero-stage reveal">
+        <div class="stage-label top">SYSTEM CORE / 01</div>
+        <div class="stage-label bottom">JAVA · SPRING · KAFKA · SQL</div>
+        <div class="core-wrap" id="core-wrap">
+          <div class="core-glow"></div>
+          <div class="core">
+            <div class="core-inner">
+              <span>JAVA</span>
+              <small>BACKEND</small>
+            </div>
+          </div>
+          <div class="ring ring-a"><i>SPRING</i></div>
+          <div class="ring ring-b"><i>KAFKA</i></div>
+          <div class="ring ring-c"><i>SQL</i></div>
+          <div class="node node-1"></div>
+          <div class="node node-2"></div>
+          <div class="node node-3"></div>
+          <div class="node node-4"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-head reveal"><span>01</span><h2>About me</h2></div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p class="kicker">ENGINEERING WITH PURPOSE</p>
+          <h3>I like understanding <em>how systems work</em> — then making them better.</h3>
+          <p>
+            I'm Nikhil Mogiligunta, a Java backend developer focused on scalable
+            enterprise applications and microservices. My background includes
+            banking and financial services, payment workflows, REST APIs,
+            authentication, event-driven communication and database optimization.
+          </p>
+          <p>
+            I also enjoy teaching programming. Explaining a difficult concept
+            clearly has made me a better problem solver and communicator.
+          </p>
+        </div>
+
+        <div class="terminal reveal tilt">
+          <div class="terminal-bar"><span></span><span></span><span></span><b>nikhil.java</b></div>
+          <pre><code><span class="purple">public class</span> Developer {
+  String role = <span class="green">"Java Backend Developer"</span>;
+
+  String[] focus = {
+    <span class="green">"Spring Boot"</span>,
+    <span class="green">"Microservices"</span>,
+    <span class="green">"Kafka"</span>,
+    <span class="green">"Distributed Systems"</span>
+  };
+
+  <span class="purple">boolean</span> buildReliableSystems() {
+    <span class="purple">return</span> <span class="orange">true</span>;
+  }
+}</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-head reveal"><span>02</span><h2>Technical stack</h2></div>
+      <div class="skill-orbit-layout">
+        <div class="skill-intro reveal">
+          <p class="kicker">TOOLS I WORK WITH</p>
+          <h3>A backend-first toolkit for <em>real systems.</em></h3>
+          <p>My core stack centers on Java and Spring, with messaging, security and relational databases around it.</p>
+        </div>
+        <div class="skills-cards">
+          <article class="skill-card tilt reveal"><div class="skill-number">01</div><div class="skill-icon">☕</div><h3>Java</h3><p>Core Java, Java 8, OOP, Collections</p><div class="meter"><i style="--level:92%"></i></div></article>
+          <article class="skill-card tilt reveal"><div class="skill-number">02</div><div class="skill-icon">◈</div><h3>Spring Boot</h3><p>Spring MVC, Security, REST APIs</p><div class="meter"><i style="--level:90%"></i></div></article>
+          <article class="skill-card tilt reveal"><div class="skill-number">03</div><div class="skill-icon">⚡</div><h3>Kafka</h3><p>Asynchronous and event-driven communication</p><div class="meter"><i style="--level:82%"></i></div></article>
+          <article class="skill-card tilt reveal"><div class="skill-number">04</div><div class="skill-icon">▦</div><h3>Hibernate / JPA</h3><p>Persistence and database optimization</p><div class="meter"><i style="--level:86%"></i></div></article>
+          <article class="skill-card tilt reveal"><div class="skill-number">05</div><div class="skill-icon">⌁</div><h3>Security</h3><p>OAuth2 and OIDC authentication</p><div class="meter"><i style="--level:78%"></i></div></article>
+          <article class="skill-card tilt reveal"><div class="skill-number">06</div><div class="skill-icon">DB</div><h3>Databases</h3><p>MySQL, Oracle, PostgreSQL</p><div class="meter"><i style="--level:84%"></i></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-head reveal"><span>03</span><h2>Experience</h2></div>
+      <div class="timeline">
+        <div class="timeline-progress"></div>
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">OCT 2024 — PRESENT</div>
+          <div class="timeline-card tilt">
+            <p class="kicker">BANKING DOMAIN</p>
+            <h3>Freelance Software Developer</h3>
+            <p>Enterprise backend applications for banking and financial services.</p>
+            <div class="tag-row"><span>Spring Boot</span><span>REST</span><span>Kafka</span><span>OAuth2/OIDC</span><span>Hibernate/JPA</span></div>
+            <ul>
+              <li>Designed RESTful APIs and microservices for payment and transaction workflows.</li>
+              <li>Integrated Kafka for asynchronous event-driven communication.</li>
+              <li>Implemented secure OAuth2/OIDC authentication and authorization.</li>
+              <li>Optimized database operations using Hibernate and JPA.</li>
+            </ul>
+          </div>
+        </article>
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2022 — 2025</div>
+          <div class="timeline-card tilt">
+            <p class="kicker">TEACHING</p>
+            <h3>Coding Tutor</h3>
+            <p>Programming classes and interview preparation for students and job seekers.</p>
+            <div class="tag-row"><span>C</span><span>Java</span><span>Python</span><span>Problem Solving</span></div>
+            <ul>
+              <li>Created coding exercises and interview preparation material.</li>
+              <li>Explained programming concepts with practical examples.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="project" class="section project-section">
+      <div class="section-head reveal"><span>04</span><h2>Featured project</h2></div>
+      <div class="project-hero reveal">
+        <div class="project-copy">
+          <p class="kicker">BANKING · MICROSERVICES · EVENT DRIVEN</p>
+          <h3>Credit Card <span>Autopay Platform</span></h3>
+          <p>
+            A large-scale banking application that automates recurring credit card
+            payments. Customers can schedule, authorize and manage automatic payments securely.
+          </p>
+          <div class="tag-row"><span>Java 8</span><span>Spring Boot</span><span>Hibernate</span><span>JPA</span><span>Kafka</span><span>Quartz</span><span>OAuth2</span><span>OIDC</span><span>MySQL</span><span>Splunk</span></div>
+        </div>
+
+        <div class="architecture" id="architecture">
+          <div class="arch-line line-1"></div>
+          <div class="arch-line line-2"></div>
+          <div class="arch-line line-3"></div>
+          <div class="arch-line line-4"></div>
+
+          <button class="arch-node active" data-detail="Scheduling service manages recurring payment schedules.">Scheduler</button>
+          <button class="arch-node" data-detail="Kafka carries asynchronous events between payment services.">Kafka</button>
+          <button class="arch-node" data-detail="Authorization validates and securely authorizes payment requests.">Authorization</button>
+          <button class="arch-node" data-detail="Execution handles payment processing and completion.">Execution</button>
+          <button class="arch-node" data-detail="Notification sends confirmations, failures, reminders and status updates.">Notification</button>
+
+          <div class="packet packet-1"></div>
+          <div class="packet packet-2"></div>
+          <div class="packet packet-3"></div>
+          <p class="arch-detail" id="arch-detail">Scheduling service manages recurring payment schedules.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head reveal"><span>05</span><h2>Education</h2></div>
+      <div class="education-grid">
+        <article class="edu-card tilt reveal"><span>2018 — 2022</span><h3>Bachelor of Engineering</h3><p>Computer Science</p><strong>Sri Chandrasekharendra Saraswathi Viswa Maha Vidyalaya</strong><b>CGPA 8.75 / 10</b></article>
+        <article class="edu-card tilt reveal"><span>2016 — 2018</span><h3>Intermediate</h3><p>MPC</p><strong>Narayana Junior College, Nellore</strong><b>84.7%</b></article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="contact-grid reveal">
+        <div>
+          <p class="kicker">LET'S CONNECT</p>
+          <h2>Let's build something <span>meaningful.</span></h2>
+        </div>
+        <div>
+          <p>If you're interested in backend engineering, scalable systems or collaborating on an interesting project, I'd be happy to connect.</p>
+          <a class="btn btn-primary magnetic" href="mailto:mogiliguntanikhil2001@gmail.com">Get in touch ↗</a>
+          <div class="contact-meta">Hyderabad, India · mogiliguntanikhil2001@gmail.com</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>© <span id="year"></span> Nikhil Mogiligunta</span><span>Java · Spring Boot · Microservices</span></footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="../js/script.js"></script>
+</body>
+</html>
